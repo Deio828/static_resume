@@ -1300,8 +1300,9 @@ section {
   padding-top: 30px;
 }
 #footer .credits {
-  padding-top: 10px;
+  padding-top: 0px;
   text-align: center;
   font-size: 13px;
   color: #fff;
+  bottom: 0;
 }
