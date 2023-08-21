@@ -15,7 +15,14 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+<!-- icons -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
     
     <!-- Vendor CSS Files -->
     <link href="static/styles/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -28,6 +35,7 @@
 
     <!-- Template Main CSS File -->
     <link href="static/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
     <script>
       $(document).ready(function(){
@@ -44,7 +52,8 @@
 
       gtag('config', 'G-K9XTN0VMMZ');
     </script>
-    
+        <script src="https://unpkg.com/scrollreveal"></script>
+
   </head>
 
   <body>
@@ -112,8 +121,7 @@
       <!-- ======= Skills Section ======= -->
       <section id="skills" class="about section-bg">
         <div class="container">
-
-          <div class="row">
+          <div class="row" style="display:flex; align-items: flex-start;">
             <div class="section-title">
               <h2>Skills</h2>
             </div>
@@ -489,62 +497,39 @@
             <h2>My Communities</h2>
             <p>Where to find me ? Here are some of the communities in which I am most active.</p>
           </div>
-          
-          <div class="row align-items-center">
-            <div class="col-lg-2 col-md-4 align-items-stretch mb-5 mb-lg-0 hover-overlay" ripple data-mdb-ripple-color="light">
-              <a href="https://www.kaggle.com/mohamedalsayad" target="_blank" rel="noopener noreferrer" title="Kaggle">
-                <img src="static/communities/kaggle3.png" class="mx-auto d-block zoom" style="width: 200px; height: 15vh;">
-              </a>
-            </div>
-            <div class="col-lg-2 col-md-4 flex align-items-center mb-5 mb-lg-0">
-              <a href="https://www.linkedin.com/in/mohamed-alsayad-520574153/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                <img src="static/communities/linkedin2.png" class="mx-auto d-block zoom" style="width: auto; height: 15vh;">
-              </a>
-            </div>
-            <div class="col-lg-2 col-md-4 flex align-items-center mb-5 mb-lg-0">
-              <a href="https://github.com/Deio828" target="_blank" rel="noopener noreferrer" title="Github">
-                <img src="static/communities/github4.png" class="mx-auto d-block zoom" style="width: auto; height: 15vh;">
-              </a>
-            </div>
-            <div class="col-lg-2 col-md-4 align-items-stretch mb-5 mb-lg-0">
-              <a href="https://stackoverflow.com/users/7257452/mohamed-mostafa" target="_blank" rel="noopener noreferrer" title="Stackoverflow">
-                <img src="static/communities/stackoverflow4.png" class="mx-auto d-block zoom" style="width: auto; height: 15vh;">
-              </a>
-            </div>
-            <div class="col-lg-2 col-md-4 align-items-stretch mb-5 mb-lg-0">
-              <a href="https://www.facebook.com/Mohamed.Deio" target="_blank" rel="noopener noreferrer" title="Facebook">
-                <img src="static/communities/facebook2.png" class="mx-auto d-block zoom" style="width: auto; height: 15vh;">
-              </a>
-            </div>
-            <div class="col-lg-2 col-md-4 align-items-stretch mb-5 mb-lg-0">
-              <a href="https://www.instagram.com/mohamed_m_alsayad/" target="_blank" rel="noopener noreferrer" title="Instagram">
-                <img src="static/communities/instagram2.jpg" class="mx-auto d-block zoom" style="width: auto; height: 15vh;">
-              </a>
-            </div>
+          <div class="content-2">
+          <div class="media-info">
+            <li><a href="https://www.linkedin.com/in/mohamed-alsayad-520574153/" target="_blank"><i class="fa-brands fa-linkedin"></i>Linkedin</a></li>
+            <li><a href="https://github.com/Deio828" target="_blank"><i class="fa-brands fa-github"></i>Github</a></li>
+            <li><a href="https://stackoverflow.com/users/7257452/mohamed-mostafa" target="_blank"><i class="fa-brands fa-stack-overflow"></i>Stack Overflow</a></li>
+            <li><a href="https://www.kaggle.com/mohamedalsayad" target="_blank"><i class="fa-brands fa-kaggle"></i>Kaggle</a></li>
+            <li><a href="https://www.instagram.com/mohamed_m_alsayad" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
           </div>
-
+        <div class="contact-image">
+         <img src="Mohamed_Mostafa2.jpg" alt="contact-image">
         </div>
-
+        </div>
+        </div>
       </section>
 
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row ">
           
-          <div class="col-sm-8 justify-content-end" style="text-align:right; display:flex; align-items:center;">
-            <h4>Contact Me</h4>
+          <div class="col-sm-8 justify-content-start" style="display:flex; align-items:center;">
+            <h4 style="margin-left:50px ;">Contact Me</h4>
           </div>
 
           <div class="col-sm-3" style="display:flex;">
             <!-- Address -->
-            <div class="container-fluid" style="margin: 15px 0px;">
-              <div class="row">
+            <div class="container-fluid " style="margin: 15px 0px;">
+              <div class="row footer-icons">
                 <div class="col-sm-1">
                   <i class="bx bx-map"></i>
                 </div>
-                <div class="col">
+                <div class="col" style="margin-top:15px ;">
                   <p>Maadi, Cairo, Egypt</p>
                 </div>
               </div>
@@ -554,27 +539,27 @@
                   <i class="bx bx-envelope"></i>
                 </div>
                 <div class="col">
-                  <p>mohamed.m.alsayad@gmail.com</p>
+                <a href="mailto:mohamed.m.alsayad@gmail.com" target="_blank">mohamed.m.alsayad@gmail.com</a>
                 </div>
               </div>
               <!-- Phone -->
-              <!-- <div class="row">
+              <div class="row">
                 <div class="col-sm-1">
                   <i class="bx bx-phone"></i>
                 </div>
-                <div class="col">
-                  <p>+2-01145734341  +968-99289649</p>
+                <div class="col" style="margin-top:15px ;">
+                  <p>+968-99289649</p>
                 </div>
-              </div> -->
+              </div>
               <!-- Whatsapp -->
-              <!-- <div class="row">
+              <div class="row">
                 <div class="col-sm-1">
                   <i class="bi bi-whatsapp"></i>
                 </div>
                 <div class="col">
-                  <p>+2-01145734341</p>
+                  <p style="margin-top: 10px;">+968-99289649</p>
                 </div>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -597,7 +582,15 @@
     <script src="static/styles/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="static/styles/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="static/styles/vendor/php-email-form/validate.js"></script>
-
+    <!-- animation -->
+    <script>ScrollReveal({ 
+      reset: true, distance:'60px',
+      duration:2000,
+      delay:400,
+      });
+      ScrollReveal().reveal('.media-info', { delay: 500, origin:'left' });
+      ScrollReveal().reveal('.contact-image', { delay: 500, origin:'top' });
+      </script>
     <!-- Template Main JS File -->
     <script src="static/js/main.js"></script>
 
